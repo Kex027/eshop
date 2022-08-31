@@ -13,10 +13,16 @@ export const shopSlice = createSlice({
       state.cart.push(payload);
       state.price += payload.price;
     },
+    removeItem: (state, { payload }) => {
+      state.cart = state.cart.filter(({ name }) => {
+        // state.price -= payload.price;
+        return name !== payload;
+      });
+    },
   },
 });
 
-export const { addItem } = shopSlice.actions;
+export const { addItem, removeItem } = shopSlice.actions;
 
 export const getCart = (state) => state.shop.cart;
 export const getCartPrice = (state) => state.shop.price;
