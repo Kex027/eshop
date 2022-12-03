@@ -1,0 +1,14 @@
+.container {
+  width: 95vw;
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  &:last-child {
+    justify-content: center;
+  }
+}

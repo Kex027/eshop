@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  font-family: Verdana, serif;
+  font-weight: 600;
+  border: 2px solid $indigoDye;
+  user-select: none;
+
+  &:hover {
+    background-color: #122C3422;
+  }
+}

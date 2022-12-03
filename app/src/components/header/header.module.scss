@@ -1,0 +1,47 @@
+@import '../../variables.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 80px;
+  background-color: $indigoDye;
+  margin-bottom: 30px;
+
+  .content {
+    width: 90%;
+
+    .item {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      
+      .info {
+        position: absolute;
+        top: -18px;
+        left: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        font-size: .6em;
+        background-color: $mediumTurquoise;
+        color: $indigoDye;
+        border-radius: 100%;
+        user-select: none;
+        border: 1px solid $indigoDye;
+      }
+    }
+
+    .icon {
+      font-size: 2em;
+    }
+  }
+
+  .display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .1fr;
+    align-items: center;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../variables.scss';
+
+.container {
+  max-width: 320px;
+  min-height: 250px;
+  padding: 20px;
+  background-color: $carolineBlue;
+  color: $indigoDye;
+  border: 2px solid $indigoDye;
+  border-radius: 5px;
+  margin: 0 10px 20px 10px;
+
+  .button {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    font-family: Verdana, serif;
+    font-weight: 600;
+    background-color: $carolineBlue;
+    color: $indigoDye;
+    border: 2px solid $indigoDye;
+
+    &:hover {
+      background-color: #122C3422;
+    }
+  }
+}
+
+.display {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}

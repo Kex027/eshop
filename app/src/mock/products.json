@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "flour",
+      "price": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 2,
+      "name": "milk",
+      "price": 15,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 3,
+      "name": "cheese",
+      "price": 40,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 4,
+      "name": "orange juice",
+      "price": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 5,
+      "name": "bread",
+      "price": 5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    }
+  ]
+}

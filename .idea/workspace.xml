@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/button/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/button/button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/header/header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/searchBar/SearchBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/searchBar/searchBar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/shopItem/ShopItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/shopItem/shopItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/features/shop/shop.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/mock/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bun.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/butter.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/milk.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/counterAPI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/Cart.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/Cart.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/Shop.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/shopList/ShopList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/shopList/ShopList.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/shopList/ShopListItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/shopList/ShopListItem.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/shopSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/setupTests.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IOsaVeEZPDVcAtaevwUiOfqu27" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/adafi/Dokumenty/Github/eshop&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\adafi\\Dokumenty\\Github\\eshop\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adafi\Dokumenty\Github\eshop\app\src\components\searchBar" />
+      <recent name="C:\Users\adafi\Dokumenty\Github\eshop\app\src\components\header" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="" />
+      <created>1670064027446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670064027446</updated>
+      <workItem from="1670064028800" duration="24989000" />
+      <workItem from="1670094649070" duration="246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
