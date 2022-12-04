@@ -1,5 +1,9 @@
+@import "../../variables";
+
 .container {
   width: 95vw;
+  overflow-y: scroll;
+  max-height: 80vh;
 }
 
 .display {
@@ -10,5 +14,19 @@
 
   &:last-child {
     justify-content: center;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0.5em;
+    border: none;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $indigoDye;
+    border-radius: 50px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $carolineBlue;
   }
 }

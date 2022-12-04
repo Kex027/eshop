@@ -1,16 +1,15 @@
 import React from "react";
-import ShopItem from "../../components/shopItem/ShopItem";
+import ShopItem from "../shopItem/ShopItem";
 import style from "./shop.module.scss";
 import { useSelector } from "react-redux";
-import { getAllProducts, getQuery } from "./shopSlice";
-import { toast, ToastContainer } from "react-toastify";
+import { getAllProducts, getIsShop, getQuery } from "./shopSlice";
 import "react-toastify/dist/ReactToastify.css";
+import Cart from "../cart/Cart";
 
 const Shop = () => {
   const products = useSelector(getAllProducts);
   const query = useSelector(getQuery);
-
-  const notify = () => toast("Wow so easy!");
+  const isShop = useSelector(getIsShop);
 
   const getFilteredItems = () => {
     if (!products.length) {
@@ -21,11 +20,13 @@ const Shop = () => {
 
   return (
     <div className={`${style.container}  ${style.display}`}>
-      {getFilteredItems().map((product) => (
-        <ShopItem key={product.id} product={product} addAlert={notify} />
-      ))}
-      {/*<button onClick={notify}>Notify</button>;*/}
-      {/*<ToastContainer />*/}
+      {isShop ? (
+        getFilteredItems().map((product) => (
+          <ShopItem key={product.id} product={product} />
+        ))
+      ) : (
+        <Cart />
+      )}
     </div>
   );
 };

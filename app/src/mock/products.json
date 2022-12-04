@@ -29,6 +29,30 @@
       "name": "bread",
       "price": 5,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 6,
+      "name": "computer",
+      "price": 2000,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 7,
+      "name": "chocolate",
+      "price": 8,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 8,
+      "name": "water",
+      "price": 2.5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
+    },
+    {
+      "id": 9,
+      "name": "egg",
+      "price": 1.5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, exercitationem!"
     }
   ]
 }

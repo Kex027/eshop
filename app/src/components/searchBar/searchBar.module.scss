@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
 .container {
   position: relative;
@@ -9,19 +9,19 @@
     padding: 10px;
     background-color: $indigoDye;
     border: 2px solid $carolineBlue;
-    border-radius: 5px;
+    border-radius: 30px;
     outline: none;
     color: $mediumTurquoise;
     font-family: Verdana, serif;
 
-    &:focus, &:valid {
+    &:focus,
+    &:valid {
       ~ span {
         color: $indigoDye;
         transform: translate(10px, -7px);
         font-size: 0.8em;
         padding: 0 10px;
         background-color: $mediumTurquoise;
-        border-radius: 3px;
       }
     }
   }
@@ -35,6 +35,7 @@
     color: $carolineBlue;
     transition: 0.3s ease;
     user-select: none;
+    border-radius: 30px;
   }
 }
 

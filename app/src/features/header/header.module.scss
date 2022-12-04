@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../variables';
 
 .container {
   display: flex;
@@ -32,6 +32,10 @@
         user-select: none;
         border: 1px solid $indigoDye;
       }
+    }
+
+    .pointer {
+      cursor: pointer;
     }
 
     .icon {
