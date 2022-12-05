@@ -40,7 +40,7 @@ const ShopItem = ({ product: { id, name, description, price } }) => {
           dispatch(addToCart({ id, name, price }));
         }}
       />
-      <ToastContainer />
+      <ToastContainer limit={5} />
     </div>
   );
 };

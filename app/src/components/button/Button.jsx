@@ -12,7 +12,7 @@ const Button = ({ text, handleClick, color, bgColor, borderW }) => {
 
   const styles = {
     backgroundColor: bgColor,
-    opacity: !isHover ? 1 : 0.7,
+    opacity: !isHover ? 1 : 0.9,
     color: color,
     borderColor: color,
     borderWidth: borderW,

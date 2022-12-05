@@ -6,6 +6,10 @@ import { getAllProducts, getIsShop, getQuery } from "./shopSlice";
 import "react-toastify/dist/ReactToastify.css";
 import Cart from "../cart/Cart";
 
+//TODO
+// info o discount
+// delete item
+
 const Shop = () => {
   const products = useSelector(getAllProducts);
   const query = useSelector(getQuery);

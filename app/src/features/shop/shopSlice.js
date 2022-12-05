@@ -6,6 +6,7 @@ const initialState = {
   query: "",
   cart: [],
   isShop: true,
+  discount: { discount: 0.05, quantityToDiscount: 5 },
 };
 
 export const shopSlice = createSlice({
@@ -17,14 +18,6 @@ export const shopSlice = createSlice({
     },
     addToCart: (state, { payload }) => {
       state.cart.push(payload);
-
-      // const countedNames = names.reduce((allNames, name) => {
-      //   const currCount = allNames[name] ?? 0;
-      //   return {
-      //     ...allNames,
-      //     [name]: currCount + 1,
-      //   };
-      // }, {});
     },
     switchShop: (state, { payload }) => {
       state.isShop = payload;
@@ -38,5 +31,6 @@ export const getQuery = (state) => state.shop.query;
 export const getCart = (state) => state.shop.cart;
 export const getIsShop = (state) => state.shop.isShop;
 export const getCartLength = (state) => state.shop.cart.length;
+export const getDiscount = (state) => state.shop.discount;
 
 export default shopSlice.reducer;

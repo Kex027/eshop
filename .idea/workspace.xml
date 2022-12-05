@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="SCSS updates &#10;Added prettier&#10;Created Button and Search component&#10;Improved styling &#10;Added some packs&#10;Created store structure">
-      <change afterPath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/features/cart/cart.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="Created cart with functionality &#10;Improved css&#10;There are two side sited (shop, cart)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/button/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/components/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/button/button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/header/header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/searchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/searchBar/SearchBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/searchBar/searchBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/searchBar/searchBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/shopItem/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shopItem/ShopItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/shopItem/shopItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shopItem/shopItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/shop/shop.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shop.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/mock/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/mock/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/shopItem/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shopItem/ShopItem.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +26,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/adafi/Dokumenty/Github/eshop",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\adafi\\Dokumenty\\Github\\eshop\\app\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/adafi/Dokumenty/Github/eshop&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\adafi\\Dokumenty\\Github\\eshop\\app\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\adafi\Dokumenty\Github\eshop\app\src\features" />
@@ -70,7 +56,8 @@
       <workItem from="1670064028800" duration="24989000" />
       <workItem from="1670094649070" duration="893000" />
       <workItem from="1670151292063" duration="1000000" />
-      <workItem from="1670152338362" duration="11588000" />
+      <workItem from="1670152338362" duration="11801000" />
+      <workItem from="1670250315927" duration="6531000" />
     </task>
     <task id="LOCAL-00001" summary="SCSS updates &#10;Added prettier&#10;Created Button and Search component&#10;Improved styling &#10;Added some packs&#10;Created store structure">
       <created>1670095195917</created>
@@ -79,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670095195917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created cart with functionality &#10;Improved css&#10;There are two side sited (shop, cart)">
+      <created>1670165836486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670165836486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SCSS updates &#10;Added prettier&#10;Created Button and Search component&#10;Improved styling &#10;Added some packs&#10;Created store structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="SCSS updates &#10;Added prettier&#10;Created Button and Search component&#10;Improved styling &#10;Added some packs&#10;Created store structure" />
+    <MESSAGE value="Created cart with functionality &#10;Improved css&#10;There are two side sited (shop, cart)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created cart with functionality &#10;Improved css&#10;There are two side sited (shop, cart)" />
   </component>
 </project>
