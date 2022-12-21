@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./shopItem.module.scss";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../shop/shopSlice";
+import { addToCart } from "../shopSlice";
 import { toast, ToastContainer } from "react-toastify";
-import Button from "../../components/button/Button";
+import Button from "../../../components/button/Button";
 
 const ShopItem = ({ product: { id, name, description, price } }) => {
   const dispatch = useDispatch();

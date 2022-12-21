@@ -1,4 +1,4 @@
-@import '../../variables';
+@import "../../../variables";
 
 .container {
   max-width: 320px;
@@ -22,7 +22,7 @@
     border: 2px solid $indigoDye;
 
     &:hover {
-      background-color: #122C3422;
+      background-color: #122c3422;
     }
   }
 }

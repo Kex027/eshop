@@ -1,5 +1,5 @@
 import React from "react";
-import ShopItem from "../shopItem/ShopItem";
+import ShopItem from "./shopItem/ShopItem";
 import style from "./shop.module.scss";
 import { useSelector } from "react-redux";
 import { getAllProducts, getIsShop, getQuery } from "./shopSlice";

@@ -19,13 +19,10 @@ export const shopSlice = createSlice({
     addToCart: (state, { payload }) => {
       state.cart.push(payload);
     },
-    switchShop: (state, { payload }) => {
-      state.isShop = payload;
-    },
   },
 });
 
-export const { setQuery, addToCart, switchShop } = shopSlice.actions;
+export const { setQuery, addToCart } = shopSlice.actions;
 export const getAllProducts = (state) => state.shop.allProducts;
 export const getQuery = (state) => state.shop.query;
 export const getCart = (state) => state.shop.cart;
