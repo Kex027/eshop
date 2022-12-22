@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="Routes were implemented &#10;Created page 404&#10;Fixed scrollbar">
+    <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="added clear button to input &#10;fixed scrollbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/searchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/searchBar/SearchBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/searchBar/searchBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/searchBar/searchBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/cart/cart.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/cart/cart.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/shop/shop.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shop.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +58,7 @@
       <workItem from="1670152338362" duration="11801000" />
       <workItem from="1670250315927" duration="6681000" />
       <workItem from="1670358863290" duration="124000" />
-      <workItem from="1671638163104" duration="7050000" />
+      <workItem from="1671638163104" duration="8105000" />
     </task>
     <task id="LOCAL-00001" summary="SCSS updates &#10;Added prettier&#10;Created Button and Search component&#10;Improved styling &#10;Added some packs&#10;Created store structure">
       <created>1670095195917</created>
@@ -93,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671641664094</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added clear button to input &#10;fixed scrollbar">
+      <created>1671716053645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671716053645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +117,7 @@
     <MESSAGE value="Created cart with functionality &#10;Improved css&#10;There are two side sited (shop, cart)" />
     <MESSAGE value="Created discount functionality &#10;Prepared placeholder for deleting items &#10;Fixed toast bug" />
     <MESSAGE value="Routes were implemented &#10;Created page 404&#10;Fixed scrollbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routes were implemented &#10;Created page 404&#10;Fixed scrollbar" />
+    <MESSAGE value="added clear button to input &#10;fixed scrollbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added clear button to input &#10;fixed scrollbar" />
   </component>
 </project>

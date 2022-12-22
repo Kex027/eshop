@@ -1,12 +1,13 @@
 import React from "react";
-import { useSelector } from "react-redux";
-import { getCart, getDiscount } from "../shop/shopSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { deleteFromCart, getCart, getDiscount } from "../shop/shopSlice";
 import style from "./cart.module.scss";
 import Button from "../../components/button/Button";
 
 const Cart = () => {
   const cart = useSelector(getCart);
   const { discount, quantityToDiscount } = useSelector(getDiscount);
+  const dispatch = useDispatch();
   let allItemsCost = 0;
   const sortedCart = cart.reduce((acc, item) => {
     const name = item.name;
@@ -53,7 +54,7 @@ const Cart = () => {
                     color="#4EA5D9"
                     bgColor="#122C34"
                     handleClick={() => {
-                      console.log(name);
+                      dispatch(deleteFromCart(name));
                     }}
                   />
                 </span>{" "}

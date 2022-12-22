@@ -7,7 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 //TODO
 // info o discount
-// delete item
 
 const Shop = () => {
   const products = useSelector(getAllProducts);
