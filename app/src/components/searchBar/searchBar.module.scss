@@ -24,9 +24,12 @@
         background-color: $mediumTurquoise;
       }
     }
+    &::-webkit-search-cancel-button {
+      cursor: pointer;
+    }
   }
 
-  span {
+  .search {
     position: absolute;
     left: 0;
     top: 0;

@@ -11,10 +11,11 @@ const SearchBar = () => {
   return (
     <div className={`${style.container} ${style.display}`}>
       <input
+        type="search"
         onChange={({ target: { value } }) => dispatch(setQuery(value))}
         required
       />
-      <span>
+      <span className={style.search}>
         <FontAwesomeIcon icon={faSearch} /> Search
       </span>
     </div>
