@@ -5,7 +5,7 @@ const initialState = {
   allProducts: PRODUCTS_MOCK.products,
   query: "",
   cart: [],
-  discount: { discount: 0.05, quantityToDiscount: 5 },
+  discount: { discount: 0.05, itemsToDiscount: 5 },
 };
 
 export const shopSlice = createSlice({

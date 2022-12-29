@@ -5,12 +5,14 @@ import Header from "./features/header/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Cart from "./features/cart/Cart";
 import Page404 from "./Page404";
+import Banner from "./features/banner/Banner";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
+        <Banner />
         <Routes>
           <Route path="/" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />

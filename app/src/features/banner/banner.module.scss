@@ -1,0 +1,12 @@
+@import "../../variables";
+
+.container {
+  background-color: $darkCornFlowerBlue;
+  padding: 20px 70px;
+  width: 400px;
+  position: absolute;
+  top: 130px;
+  left: -110px;
+  color: $carolineBlue;
+  transform: rotate(-45deg);
+}
