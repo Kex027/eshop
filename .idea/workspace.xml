@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="Created functionality - removing items from the cart">
-      <change afterPath="$PROJECT_DIR$/app/src/features/banner/Banner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/features/banner/banner.module.scss" afterDir="false" />
+    <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="Improved nesting routes &#10;Price is displayed with two decimal places&#10;Created product site with all info">
+      <change afterPath="$PROJECT_DIR$/app/src/features/shop/product/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/cart/cart.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/cart/cart.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/features/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopItem/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopItem/ShopItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopItem/shopItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopItem/shopItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +67,8 @@
       <workItem from="1670250315927" duration="6681000" />
       <workItem from="1670358863290" duration="124000" />
       <workItem from="1671638163104" duration="8282000" />
-      <workItem from="1672320535118" duration="2068000" />
+      <workItem from="1672320535118" duration="2820000" />
+      <workItem from="1672428420257" duration="4070000" />
     </task>
     <task id="LOCAL-00001" summary="SCSS updates &#10;Added prettier&#10;Created Button and Search component&#10;Improved styling &#10;Added some packs&#10;Created store structure">
       <created>1670095195917</created>
@@ -105,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671717158478</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created discount banner">
+      <created>1672322980243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672322980243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +143,8 @@
     <MESSAGE value="Routes were implemented &#10;Created page 404&#10;Fixed scrollbar" />
     <MESSAGE value="added clear button to input &#10;fixed scrollbar" />
     <MESSAGE value="Created functionality - removing items from the cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created functionality - removing items from the cart" />
+    <MESSAGE value="Created discount banner" />
+    <MESSAGE value="Improved nesting routes &#10;Price is displayed with two decimal places&#10;Created product site with all info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved nesting routes &#10;Price is displayed with two decimal places&#10;Created product site with all info" />
   </component>
 </project>

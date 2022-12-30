@@ -23,6 +23,10 @@
     .lastRow {
       grid-column: 1 / span 3;
     }
+
+    .oldPrice {
+      opacity: 0.5;
+    }
   }
   &::-webkit-scrollbar {
     width: 0.5em;

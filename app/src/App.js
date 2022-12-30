@@ -5,16 +5,18 @@ import Header from "./features/header/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Cart from "./features/cart/Cart";
 import Page404 from "./Page404";
-import Banner from "./features/banner/Banner";
+import Product from "./features/shop/product/Product";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Banner />
         <Routes>
-          <Route path="/" element={<Shop />} />
+          <Route path="/">
+            <Route index element={<Shop />} />
+            <Route path=":id" element={<Product />} />
+          </Route>
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Page404 />} />
         </Routes>

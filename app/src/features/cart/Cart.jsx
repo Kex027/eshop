@@ -6,7 +6,7 @@ import Button from "../../components/button/Button";
 
 const Cart = () => {
   const cart = useSelector(getCart);
-  const { discount, quantityToDiscount } = useSelector(getDiscount);
+  const { discount, itemsToDiscount } = useSelector(getDiscount);
   const dispatch = useDispatch();
   let allItemsCost = 0;
   const sortedCart = cart.reduce((acc, item) => {
@@ -38,17 +38,14 @@ const Cart = () => {
             const sum = Math.round(
               quantity *
                 price *
-                Math.pow(
-                  1 - discount,
-                  Math.floor(quantity / quantityToDiscount)
-                )
+                Math.pow(1 - discount, Math.floor(quantity / itemsToDiscount))
             );
             allItemsCost += sum;
             return (
               <>
                 <span>{quantity}</span>{" "}
                 <span>
-                  {name} (${price}){" "}
+                  {name} (${price.toFixed(2)}){" "}
                   <Button
                     text="X"
                     color="#4EA5D9"
@@ -58,18 +55,21 @@ const Cart = () => {
                     }}
                   />
                 </span>{" "}
-                {quantity >= quantityToDiscount ? (
+                {quantity >= itemsToDiscount ? (
                   <span>
-                    <s>${quantity * price}</s> ${sum}
+                    <s className={style.oldPrice}>
+                      ${(quantity * price).toFixed(2)}
+                    </s>{" "}
+                    ${sum}
                   </span>
                 ) : (
-                  <span>${quantity * price}</span>
+                  <span>${(quantity * price).toFixed(2)}</span>
                 )}
               </>
             );
           })}
           <span className={`${style.heading} ${style.lastRow}`}>
-            Everything costs: ${allItemsCost}
+            Everything costs: ${allItemsCost.toFixed(2)}
           </span>
         </div>
       )}

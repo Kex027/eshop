@@ -14,7 +14,7 @@ const Header = () => {
     <div className={style.container}>
       <div className={`${style.display} ${style.content}`}>
         <Link to={`/`} className={`${style.item} ${style.icon}`}>
-          <FontAwesomeIcon icon={faHouse} className={style.pointer} />
+          <FontAwesomeIcon icon={faHouse} />
         </Link>
         <div className={style.item}>
           <h1>E-SHOP</h1>
@@ -27,7 +27,7 @@ const Header = () => {
             {cartLength > 9 ? "9+" : cartLength}
           </span>
           <Link to={`/cart`}>
-            <FontAwesomeIcon icon={faCartShopping} className={style.pointer} />
+            <FontAwesomeIcon icon={faCartShopping} />
           </Link>
         </div>
       </div>

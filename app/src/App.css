@@ -5,3 +5,12 @@
   flex-direction: column;
   height: 100vh;
 }
+
+a {
+  cursor: pointer;
+  color: #4ea5d9;
+}
+
+a:active {
+  color: #44cfcb;
+}
