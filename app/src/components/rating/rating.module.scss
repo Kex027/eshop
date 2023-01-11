@@ -1,0 +1,17 @@
+@import "../../variables";
+
+.ratingStars {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+
+  .starUnrated {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover ~ .starUnrated,
+    &:hover {
+      color: $mediumTurquoise;
+    }
+  }
+}

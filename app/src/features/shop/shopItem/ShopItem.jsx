@@ -7,12 +7,10 @@ import Button from "../../../components/button/Button";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import { capitalizeFirst } from "../../../functions";
 
 const ShopItem = ({ product: { id, name, price } }) => {
   const dispatch = useDispatch();
-  const capitalizeFirst = (str) => {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-  };
 
   const notify = () =>
     toast.success("Successfully added!", {

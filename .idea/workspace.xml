@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea463085-1036-41c4-b023-1b28a4ffc3ae" name="Changes" comment="Improved nesting routes &#10;Price is displayed with two decimal places&#10;Created product site with all info">
-      <change afterPath="$PROJECT_DIR$/app/src/features/shop/product/Product.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/rating/Rating.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/rating/rating.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/features/shop/product/product.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/cart/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/cart/cart.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/cart/cart.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/header/header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/Shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/features/shop/product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/product/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopItem/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopItem/ShopItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopItem/shopItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopItem/shopItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/features/shop/shopSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,9 @@
       <workItem from="1670358863290" duration="124000" />
       <workItem from="1671638163104" duration="8282000" />
       <workItem from="1672320535118" duration="2820000" />
-      <workItem from="1672428420257" duration="4070000" />
+      <workItem from="1672428420257" duration="4112000" />
+      <workItem from="1672486223394" duration="1840000" />
+      <workItem from="1672569895436" duration="3654000" />
     </task>
     <task id="LOCAL-00001" summary="SCSS updates &#10;Added prettier&#10;Created Button and Search component&#10;Improved styling &#10;Added some packs&#10;Created store structure">
       <created>1670095195917</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672322980243</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Improved nesting routes &#10;Price is displayed with two decimal places&#10;Created product site with all info">
+      <created>1672432534758</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672432534758</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
